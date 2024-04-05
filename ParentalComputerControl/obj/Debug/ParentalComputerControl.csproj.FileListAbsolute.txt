@@ -1,0 +1,20 @@
+E:\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.exe.config
+E:\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.exe
+E:\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.pdb
+E:\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\Newtonsoft.Json.dll
+E:\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\Newtonsoft.Json.xml
+E:\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.AssemblyReference.cache
+E:\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.CoreCompileInputs.cache
+E:\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.CopyComplete
+E:\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.exe
+E:\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.pdb
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.exe.config
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.exe
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\ParentalComputerControl.pdb
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.CoreCompileInputs.cache
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.CopyComplete
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.exe
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.pdb
+C:\Users\Teknik Servis\Desktop\Proje\ParentalComputerControl\ParentalComputerControl\obj\Debug\ParentalComputerControl.csproj.AssemblyReference.cache
