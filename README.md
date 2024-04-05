@@ -4,7 +4,7 @@
 
 <p align="center">
   <samp>
-    Merhaba, Ben Selçuk! 👋<br>
+    Merhaba, ben Selçuk! 👋<br>
   </samp>
 </p>
 
@@ -41,34 +41,27 @@
 
 <p align="center">
   <samp>
-    How does the Parental Computer Control App work?
+    Parental Computer Control nasıl çalışır?
 </samp>
 
-Parental Computer Control is a C# console application designed to manage children's computer usage. It offers two main methods: TimeIntervalControl and TotalWorkingTimeControl.
+Parental Computer Control çocukların bilgisayar kullanımını yönetmek için tasarlanmış bir C# konsol uygulamasıdır. İki ana yöntem sunar: TimeIntervalControl ve TotalWorkingTimeControl.
 
 ## TimeIntervalControl
 
-This method allows controlling children's computer usage during specific time intervals throughout the day. Users can define start and end hours during which computer usage is permitted. Outside of these hours, computer usage is restricted, and users are notified.
+Bu yöntem, çocukların gün içerisinde belirli zaman aralıklarında bilgisayar kullanımlarının kontrol edilmesini sağlar. Kullanıcılar bilgisayar kullanımına izin verilen başlangıç ve bitiş saatlerini tanımlayabilir. Bu saatler dışında bilgisayar otomatik olarak kapanır.
+Örneğin 08:00 ila 17:00 arasında sadece bilgisayar kullanılabilir gibi.
 
 ## TotalWorkingTimeControl
+Bu yöntem, çocukların her gün bilgisayarda geçirebileceği toplam süreyi kontrol eder. Kullanıcılar çocuğun günlük toplam çalışma saatlerini ayarlayabilir. Belirtilen süre sınırına ulaşıldığında bilgisayar otomatik olarak kapanır.
+Örneğin bir gün içersinde 24 saat mevcuttur ve çocuklar bu 24 saat içinde sadece 5 saat bilgisayar kullanabilir.
 
-This method controls the total amount of time children can spend on the computer each day. Users can set the daily total working hours for the child. Once the specified time limit is reached, the computer shuts down automatically.
+## Kullanım
+- Uygulama debug edildikten sonra ilk açılışta kullanıcıdan şifre isteyecektir bu şifre ileride değiştirilmez, silinmez.
+- Girilen şifre onay verdikten sonra 2 seçenekten birisini seçmeniz gerekmektedir.
+- Seçeneklerden birisini seçtikten sonra uygulama kendini gizler ve arka planda çalışma işlemine devam eder.
+- Uygulama süresi doldu, aştıysa bilgisayar kapatılır bilgisayar tekrar açıldığında kullanıcıya 30 saniye limit verir bu 30 saniye içersinde belirlenen şifreyi girerse uygulama yönetimini değiştirebilir. Eğer girmezse uygulama kaldığı yerden devam edecektir.
+- Eğer kullanıcı toplam çalışma saati veya zaman aralığını değiştirmek isterse programın kurulu olduğu dosya dizinde settings.json dosyası mevcuttur bu dosya üzerinden değişiklilik yapılabilir lakin dosya içeriğinde şifre alanının doğru şekilde girilmesi gerekiyor yoksa yapılan değişiklilik geçerli sayılmaz ve eski ayarlarına otomatik döndürür.
 
-## Usage
-
-1. **Initial Setup:**
-   - Users need to configure initial settings for the program, including password setup and method selection.
-
-2. **Method Selection:**
-   - Users can choose between TimeIntervalControl and TotalWorkingTimeControl based on their preferences and requirements.
-
-3. **Password Confirmation:**
-   - To change settings or select a method, users must enter the password within a specified time frame.
-
-4. **Method Execution:**
-   - Based on the selected method, the program monitors and controls children's computer usage accordingly.
-
-## Customization
-
-The program allows customization of various settings such as time intervals, total working hours, and password. Users can modify these settings to suit their specific needs.
+## Özelleştirme
+Program, zaman aralıkları, toplam çalışma saati gibi çeşitli ayarların özelleştirilebilmesine olanak sağlar. Kullanıcılar bu ayarları kendi özel ihtiyaçlarına uyacak şekilde değiştirebilirler.
 </p>
