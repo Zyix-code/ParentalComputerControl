@@ -42,8 +42,7 @@
 <p align="center">
   <samp>
     Parental Computer Control nasıl çalışır?
-</samp>
-
+    
 Parental Computer Control çocukların bilgisayar kullanımını yönetmek için tasarlanmış bir C# konsol uygulamasıdır. İki ana yöntem sunar: TimeIntervalControl ve TotalWorkingTimeControl.
 
 ## TimeIntervalControl
@@ -56,12 +55,13 @@ Bu yöntem, çocukların her gün bilgisayarda geçirebileceği toplam süreyi k
 Örneğin bir gün içersinde 24 saat mevcuttur ve çocuklar bu 24 saat içinde sadece 5 saat bilgisayar kullanabilir.
 
 ## Kullanım
-- Uygulama debug edildikten sonra ilk açılışta kullanıcıdan şifre isteyecektir bu şifre ileride değiştirilmez, silinmez.
-- Girilen şifre onay verdikten sonra 2 seçenekten birisini seçmeniz gerekmektedir.
-- Seçeneklerden birisini seçtikten sonra uygulama kendini gizler ve arka planda çalışma işlemine devam eder.
-- Uygulama süresi doldu, aştıysa bilgisayar kapatılır bilgisayar tekrar açıldığında kullanıcıya 30 saniye limit verir bu 30 saniye içersinde belirlenen şifreyi girerse uygulama yönetimini değiştirebilir. Eğer girmezse uygulama kaldığı yerden devam edecektir.
-- Eğer kullanıcı toplam çalışma saati veya zaman aralığını değiştirmek isterse programın kurulu olduğu dosya dizinde settings.json dosyası mevcuttur bu dosya üzerinden değişiklilik yapılabilir lakin dosya içeriğinde şifre alanının doğru şekilde girilmesi gerekiyor yoksa yapılan değişiklilik geçerli sayılmaz ve eski ayarlarına otomatik döndürür.
+Hata ayıklama işleminden sonra ilk açılışta, kullanıcıdan bir şifre istenir. Bu şifre sonradan değiştirilemez veya silinemez. Şifre onaylandıktan sonra kullanıcı iki seçenekten birini seçmek zorundadır.
+
+Seçeneklerden birini seçtikten sonra, uygulama kendini gizler ve arka planda çalışmaya devam eder. Uygulama belirlenen süreyi aşarsa, kapatma işlemi başlatılır. Bilgisayar yeniden başlatıldığında, kullanıcıya belirlenen şifreyi girmesi için 30 saniye verilir. Bu süre içinde şifre girilirse, kullanıcı uygulama ayarlarını değiştirebilir; aksi halde uygulama kaldığı yerden devam eder.
+
+Kullanıcılar, toplam çalışma saatlerini veya zaman aralıklarını "settings.json" dosyasından değiştirebilir. Ancak, dosyadaki şifre alanının doğru şekilde ayarlandığından emin olmak önemlidir; aksi takdirde yapılan değişiklikler dikkate alınmaz ve ayarlar önceki durumlarına geri döner.
 
 ## Özelleştirme
 Program, zaman aralıkları, toplam çalışma saati gibi çeşitli ayarların özelleştirilebilmesine olanak sağlar. Kullanıcılar bu ayarları kendi özel ihtiyaçlarına uyacak şekilde değiştirebilirler.
 </p>
+</samp>
