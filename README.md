@@ -64,4 +64,7 @@ Kullanıcılar, toplam çalışma saatlerini veya zaman aralıklarını "setting
 ## Özelleştirme
 Program, zaman aralıkları, toplam çalışma saati gibi çeşitli ayarların özelleştirilebilmesine olanak sağlar. Kullanıcılar bu ayarları kendi özel ihtiyaçlarına uyacak şekilde değiştirebilirler.
 </p>
-</samp>
+<hr>
+      <strong>Lisans:</strong> Bu proje <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU Genel Kamu Lisansı</a> (GPL), sürüm 3.0 altında dağıtılmaktadır. Projenin tüm kullanıcıları, lisansın koşullarına uymak kaydıyla projeyi özgürce kullanabilir, değiştirebilir ve paylaşabilir. Daha fazla bilgi için <a href="LICENSE">LİSANS</a> dosyasına bakabilirsiniz.<br>
+      &copy; 2024 <a href="https://github.com/Zyix-code">Selçuk Şahin</a>
+   </samp>
